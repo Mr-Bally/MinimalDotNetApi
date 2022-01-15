@@ -13,7 +13,7 @@ public class UserData : IUserData
     }
 
     public Task<IEnumerable<UserModel>> GetUsers() =>
-        _sqlDataAccess.LoadData<UserModel, dynamic>("dbo.sp_user_GetAll", new { });
+        _sqlDataAccess.LoadAllData<UserModel, dynamic>("dbo.sp_user_GetAll");
 
     public async Task<UserModel?> GetUser(int id)
     {
