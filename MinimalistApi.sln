@@ -3,15 +3,21 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31919.166
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MinimalistApi", "MinimalistApi\MinimalistApi.csproj", "{1176EFD1-BE53-46D0-AAFD-CC02E1989F0F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MinimalistApi", "MinimalistApi\MinimalistApi.csproj", "{1176EFD1-BE53-46D0-AAFD-CC02E1989F0F}"
 EndProject
 Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "UserDb", "UserDb\UserDb.sqlproj", "{1B7F7B45-8077-4706-9B8D-0AEF61870B62}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccess", "DataAccess\DataAccess.csproj", "{B521C19F-365C-4FEF-9C8C-EE31DE7C520F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataAccess", "DataAccess\DataAccess.csproj", "{B521C19F-365C-4FEF-9C8C-EE31DE7C520F}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{35A76EA0-AAEC-4CD5-B252-02F1C070FAE8}"
 	ProjectSection(SolutionItems) = preProject
+		.dockerignore = .dockerignore
 		.editorconfig = .editorconfig
+		.gitignore = .gitignore
+		docker-compose-api.yml = docker-compose-api.yml
+		docker-compose-db.yml = docker-compose-db.yml
+		docker-compose.yml = docker-compose.yml
+		README.md = README.md
 	EndProjectSection
 EndProject
 Global
